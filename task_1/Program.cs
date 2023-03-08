@@ -10,7 +10,7 @@ int palindrom(int x)
     while (x < 9999 || x > 100000) 
 {
     Console.WriteLine("Число не является пятизначным");
-    Console.Write("Ведите пятизначное число: ");
+    Console.Write("Введите пятизначное число: ");
     x = int.Parse(Console.ReadLine());   
 }
 
@@ -38,7 +38,7 @@ int palindrom(int x)
     return 0;
 }
 
-Console.Write("Веддите пятизначное число : ");
+Console.Write("Введите пятизначное число : ");
 int fivedigit = int.Parse(Console.ReadLine());
 
 palindrom(fivedigit);
